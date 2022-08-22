@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.HomeFragment"
+    android:id="@+id/container"
+    android:background="@drawable/dog_home"
+    android:backgroundTint="#9AFFFFFF"
+    android:backgroundTintMode="src_over">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/takePhotobtn"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_100sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+
+            android:background="@drawable/bg_card"
+            android:backgroundTint="@color/orangeYellow">
+
+            <TextView
+                android:id="@+id/tv_takePhoto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:text="Take Photo"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_30sdp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_below="@id/takePhotobtn"
+            android:layout_marginTop="@dimen/_50sdp"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:id="@+id/showDataBtn"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@drawable/bg_card"
+            android:backgroundTint="@color/purple">
+
+            <TextView
+                android:id="@+id/tv_showData"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:text="Show Data"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_30sdp" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

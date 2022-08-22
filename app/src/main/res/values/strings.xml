@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Dog Finder</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="permissionSnakbar">Please provide the permission asked for, it is required for further process</string>
+    <string name="permissionAllowGuidance"><![CDATA[Grant required permissions from Settings -> applications -> Dog Finder -> Permissions]]></string>
+</resources>

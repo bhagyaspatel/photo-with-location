@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "929512915411",
+    "project_id": "dog-finder-54487",
+    "storage_bucket": "dog-finder-54487.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:929512915411:android:1a4e5dab62335283e8af26",
+        "android_client_info": {
+          "package_name": "com.example.dogfinder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "929512915411-o54ktg6mmjmlmfmq59hoidrj28ub0rhk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfGFhpfllPEexHvrF2iv-TugtKZy-DrfU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "929512915411-o54ktg6mmjmlmfmq59hoidrj28ub0rhk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
